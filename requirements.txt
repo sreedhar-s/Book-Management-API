@@ -1,0 +1,61 @@
+/* Book */
+ISBN, Title, Author[], Language, Pub data, num page, category[]
+
+=> Get
+-> we need an api all books ✅ 
+-> specefic book ✅ 
+-> list of books based on category ✅ 
+-> list of books based on authors✅
+
+=> Post
+-> New book ✅
+
+=> Put
+-> update book details✅
+-> update/add author✅
+
+=> Delete
+
+-> delete a book
+-> delete a author from book
+
+
+
+/* Authors */
+Name, Id, Books
+
+=> Get
+-> all authors✅
+-> specefic authors based omn ID✅
+-> list of authors based on a book ISBN✅
+
+=> Post
+->new author ✅
+
+=> Put
+-> update Author details ✅
+
+=> Delete
+-> Delete an author
+
+
+/* Publications */
+Name, Id, Books[]
+ 
+=> Get
+-> to get all books✅
+-> specefic books based on Id✅
+-> list of publications based on book✅
+
+
+=> Post
+-> Add new publication ✅
+
+
+=> Put
+-> update publication details ✅
+-> update/add new book to an publication ✅
+
+
+=> Delete
+-> delete an publication
