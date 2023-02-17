@@ -16,8 +16,8 @@ ISBN, Title, Author[], Language, Pub data, num page, category[]
 
 => Delete
 
--> delete a book
--> delete a author from book
+-> delete a book ✅
+-> delete a author from book✅
 
 
 
@@ -36,7 +36,7 @@ Name, Id, Books
 -> update Author details ✅
 
 => Delete
--> Delete an author
+-> Delete an author ✅
 
 
 /* Publications */
@@ -58,4 +58,5 @@ Name, Id, Books[]
 
 
 => Delete
--> delete an publication
+-> delete an publication ✅
+-> delete an publication from the book
