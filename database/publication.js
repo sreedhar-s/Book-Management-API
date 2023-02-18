@@ -8,7 +8,7 @@ const PubSchema = mongoose.Schema({
 });
 
 //creating a model
-const PubModel = mongoose.model(PubSchema);
+const PublicationModel = mongoose.model("publications", PubSchema);
 
 //Exporting the model 
-module.exports = {PubModel};
+module.exports = PublicationModel;

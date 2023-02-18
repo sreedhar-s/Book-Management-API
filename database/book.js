@@ -12,6 +12,6 @@ const BookSchema = mongoose.Schema({
 });
 
 // Model -> Document model of mongodb
-const BookModel = mongoose.model(BookSchema);
+const BookModel = mongoose.model("books", BookSchema);
 
-module.exports = {BookModel};
+module.exports = BookModel;
