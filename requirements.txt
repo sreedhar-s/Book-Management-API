@@ -60,3 +60,10 @@ Name, Id, Books[]
 => Delete
 -> delete an publication ✅
 -> delete an publication from the book
+
+{
+        useNewUrlParser : true,
+        useUnifiedTopology : true,
+        useFindAndModify : true,
+        useCreateIndex : true,
+    }
